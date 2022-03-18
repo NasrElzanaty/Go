@@ -1,0 +1,10 @@
+
+/usr/local/go
+vim .bashrc
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=/home/nk/golib
+export PATH=$PATH:$GOPATH/bin
+:wq
+
+go get github.com/nsf/gocode
